@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        node {label 'jenkins-slave'}
+        node {label 'python'}
     }
     environment {
         APPLICATION_NAME = 'python-nginx'
