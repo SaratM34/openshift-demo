@@ -11,7 +11,7 @@ spec:
       uri: https://github.com/SaratM34/openshift-demo.git
   strategy:
     jenkinsPipelineStrategy:
-      jenkinsfilePath: ./Jenkinsfile
+      jenkinsfilePath: Jenkinsfile
     type: JenkinsPipeline
   triggers:
     - github:
